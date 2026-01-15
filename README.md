@@ -19,4 +19,9 @@ This project aims to build a Machine Learning model that predicts whether a stud
 
 ## Project Status
 🔄 In Progress (Learning Phase)
+## Folder Structure
+- dataset/ : Contains datasets used for training and testing
+- notebooks/ : Jupyter notebooks for data analysis and modeling
+- results/ : Output files and visualizations
+
 

@@ -32,4 +32,16 @@ It contains academic and behavioral attributes of students, including grades, st
 The target variable is derived from the final grade (G3):
 - Pass: G3 ≥ 10
 - Fail: G3 < 10
+## Machine Learning Model
+A Logistic Regression classifier was trained to predict student performance (Pass/Fail).
+
+### Model Pipeline
+- Selected academic features: study time, past failures, absences, and internal grades
+- Split data into training (80%) and testing (20%) sets
+- Trained a Logistic Regression model using scikit-learn
+- Evaluated performance using accuracy metric
+
+### Results
+The model achieved an accuracy of approximately 80% on unseen test data, demonstrating effective prediction of student academic outcomes.
+
 

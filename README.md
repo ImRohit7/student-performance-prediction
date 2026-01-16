@@ -25,3 +25,11 @@ Early identification of students at academic risk can help institutions provide 
 
 ## Current Status
 🚧 Phase 1: Problem definition and project setup completed
+## Dataset
+The dataset used in this project is the Student Performance Dataset from the UCI Machine Learning Repository.
+It contains academic and behavioral attributes of students, including grades, study time, and past failures.
+
+The target variable is derived from the final grade (G3):
+- Pass: G3 ≥ 10
+- Fail: G3 < 10
+
